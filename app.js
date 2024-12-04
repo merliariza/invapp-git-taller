@@ -8,3 +8,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     var email = document.getElementById('email').value;
     document.getElementById('formOutput').textContent = 'Nombre: ' + name + ', Email: ' + email;
 });
+
+document.getElementById('btnClick').addEventListener('click', function() {
+    document.getElementById('output').textContent = '¡Botón clicado!';
+});
